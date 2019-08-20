@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(client.user.tag + " Ready!");
-  const channel = client.channels.get("613374400980451348");
+  const channel = client.channels.get("613374398350753802");
   channel.join().then(connection => {
     console.log("Successfully connected.");
   }).catch(e => {
